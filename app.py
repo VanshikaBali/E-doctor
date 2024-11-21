@@ -76,7 +76,7 @@ if (selected == 'Diabetes Prediction'):
     
     # Diabetes Parameter Table - Only shown on Diabetes page
     st.markdown("""
-    <h3 style="color: orange;">Parameter Information Guide</h3>
+    <h3 style="color: red;">Parameter Information Guide</h3>
     <table style="width: 100%; border-collapse: collapse;">
        <thead>
             <tr className="bg-orange-600">
@@ -220,7 +220,7 @@ if (selected == 'Heart Disease Prediction'):
         
     # Heart Disease Parameter Table - Only shown on Heart Disease page
     st.markdown("""
-    <h3 style="color: orange;">Heart Disease Parameter Information Guide</h3>
+    <h3 style="color: red;">Heart Disease Parameter Information Guide</h3>
     <table style="width: 100%; border-collapse: collapse;">
         <thead>
             <tr className="bg-orange-600">
@@ -413,7 +413,7 @@ if (selected == 'Parkinsons Prediction'):
                 st.error("Please fill all numerical vlaues")
     
     st.markdown("""
-<h3 style="color: orange;">Parkinson's Disease Parameter Information Guide</h3>
+<h3 style="color: red;">Parkinson's Disease Parameter Information Guide</h3>
 <table style="width: 100%; border-collapse: collapse;">
     <thead>
         <tr className="bg-orange-600">
